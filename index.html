@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/all.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
+
+
+
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+
+
+    <h1 class="py-5 text-center" id="h1">Bookmarker
+    </h1>
+
+
+
+
+
+
+
+
+
+
+
+    <div class="container px-4  ">
+
+        <div class="text py-3 ">
+            <h2><i class=" pe-2    fa-solid fa-bookmark"></i> Bookmark your favorite sites <i
+                    class=" ps-2 fa-solid fa-bookmark"></i> </h2>
+
+
+
+            <i class="fa-solid fa-book-bookmark"></i>
+            <label for="name">site name</label>
+            <input id="name" type="text" class="form-control  mb-3    " placeholder="Bookmark Name" />
+
+            <i class="fa-solid fa-link"></i>
+            <label for="url">Site URL</label>
+            <input id="url" type="text" class="form-control   mb-3 " placeholder="Bookmark Name" />
+            <div class=" my-alert d-none alert alert-danger" role="alert">
+               Example : www.google.com 
+              </div>
+            <div class="bt d-flex justify-content-center">
+
+                <button class="m-auto mt-3 submit " id="btn" onclick="addSite()">submite</button>
+            </div>
+        </div>
+
+
+
+
+
+        <table class="table text-center my-4">
+            <thead>
+
+                <tr>
+                    <th>Index </th>
+                    <th>Website Name</th>
+                    <th>Visit</th>
+                    <th>delete</th>
+                    <th>Update</th>
+                </tr>
+            </thead>
+
+            <tbody id="tbody">
+            </tbody>
+        </table>
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./js/main.js"></script>
+</body>
+
+</html>
